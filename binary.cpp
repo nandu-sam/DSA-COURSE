@@ -30,14 +30,14 @@ int binarySearch(int arr[], int size, int key)
 
 int main()
 {
-	int even[6] = {2,4,6,8,12,18};
-	int odd[5] = {3,8,11,14,16};
+	int even[8] = {2,4,6,8,10,12,14,16};
+	//int odd[5] = {3,8,11,14,16};
 	
-	int evenIndex = binarySearch(even, 6, 12);
-	cout<<"Index of 12 is "<<evenIndex << endl;
+	int evenIndex = binarySearch(even, 8, 8);
+	cout<<"Index of 8 is "<<evenIndex << endl;
 	
-	int oddIndex = binarySearch(odd, 5, 16);
-	cout<<"Inddex of 16 is "<<oddIndex<<endl;
+//	int oddIndex = binarySearch(odd, 5, 16);
+	//cout<<"Inddex of 16 is "<<oddIndex<<endl;
 	
 	
 	

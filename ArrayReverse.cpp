@@ -1,26 +1,30 @@
-#include<bits/stdc++.h>
-#include<iostream>
-#include<vector>
+#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-vector<int>reverse(vector <int> v){
-    int s=0,e=v.size()-1;
-    while(s<=e){
-        swap(v[s],v[e]);
+vector<int> reverse(vector<int> v)
+{
+    int s = 0, e = v.size() - 1;
+    while (s <= e)
+    {
+        swap(v[s], v[e]);
         s++;
         e--;
     }
     return v;
 }
-void printVec(vector<int> v){
-for(int i=0;i<v.size();i++){
-    cout<<v[i]<<" ";
-}
-cout<<endl;
+void printVec(vector<int> v)
+{
+    for (int i = 0; i < v.size(); i++)
+    {
+        cout << v[i] << " ";
+    }
+    cout << endl;
 }
 int main()
 {
-    vector <int> v;
+    vector<int> v;
 
     v.push_back(11);
     v.push_back(7);
